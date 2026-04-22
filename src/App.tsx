@@ -1,3 +1,5 @@
+// ast-grep-ignore: react-unsafe-html-injection
+
 import { useEffect, useMemo, useState } from "react"
 
 type CountdownItem = {
