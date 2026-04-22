@@ -1,0 +1,33 @@
+*{box-sizing:border-box}
+body{
+font-family: "Times New Roman", serif;
+margin:0;
+padding:0;
+background:#f2efe3;
+}
+
+.app {max-width:920px;margin:40px auto;padding:22px;border:3px dashed #333;background: #fff8d9}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.tabs button{padding:8px 12px;border:2px solid #000;background:#f2f7ff;cursor:pointer}
+.tabs button.active{background:#ffd28a}
+.panel{border:2px solid #222;padding:12px;background:#fff9ea}
+.time-lg{font-size:38px;font-weight:bold;letter-spacing:1px}
+.creator{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+
+input{padding:8px;border:2px solid #000;background:#fff;min-width:180px}
+button{padding:7px 12px;border:2px solid #000;background:#c9f7ff;cursor:pointer}
+
+a{color:#0a2f8d}
+
+.list{margin-top:18px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.card{border:2px solid #111;padding:10px;background:#eee}
+.card.running{background:#d7ffd7}
+.card.stopped{background:#ffd7d7}
+.buttons{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
+.err{color:#b10000;min-height:20px}
+.tiny{font-size:12px; letter-spacing:1px}
+
+@media (max-width: 700px){
+.list{grid-template-columns:1fr}
+.time-lg{font-size:30px}
+}

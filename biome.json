@@ -1,0 +1,9 @@
+{
+  "linter": {
+    "rules": {
+      "security": {
+        "noGlobalEval": "off"
+      }
+    }
+  }
+}
